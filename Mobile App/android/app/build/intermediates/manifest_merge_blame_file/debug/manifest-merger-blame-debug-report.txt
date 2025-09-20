@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.safesafar"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:3:5-67
+11-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:4:5-79
+12-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:5:5-81
+13-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+14-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:6:5-85
+14-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:6:22-82
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:7:5-65
+15-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:7:22-62
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:8:5-71
+16-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:8:22-68
+17    <uses-permission
+17-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:9:5-10:51
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:9:22-78
+19        android:maxSdkVersion="28" />
+19-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:10:22-48
+20    <uses-permission
+20-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:11:5-12:51
+21        android:name="android.permission.READ_EXTERNAL_STORAGE"
+21-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:11:22-77
+22        android:maxSdkVersion="32" />
+22-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:12:22-48
+23    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+23-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:13:5-76
+23-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:13:22-73
+24    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+24-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:14:5-75
+24-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:14:22-72
+25    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+25-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:15:5-75
+25-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:15:22-72
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:16:5-66
+26-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:16:22-63
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:17:5-68
+27-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:17:22-65
+28    <uses-permission android:name="android.permission.SEND_SMS" />
+28-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:18:5-67
+28-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:18:22-64
+29    <uses-permission android:name="android.permission.CALL_PHONE" />
+29-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:19:5-69
+29-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:19:22-66
+30    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+30-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:20:5-77
+30-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:20:22-74
+31    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+31-->[com.facebook.flipper:flipper:0.125.0] D:\GradleCache\caches\transforms-3\7791fe77b8ab9730d0e25ce55c6aa090\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:5-76
+31-->[com.facebook.flipper:flipper:0.125.0] D:\GradleCache\caches\transforms-3\7791fe77b8ab9730d0e25ce55c6aa090\transformed\jetified-flipper-0.125.0\AndroidManifest.xml:16:22-73
+32
+33    <application
+33-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:22:5-41:19
+34        android:name="com.safesafar.MainApplication"
+34-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:23:7-38
+35        android:allowBackup="false"
+35-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:27:7-34
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.7.0] D:\GradleCache\caches\transforms-3\c05df83dbc847297b7ccad2bb18337e0\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+38-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:25:7-41
+39        android:label="@string/app_name"
+39-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:24:7-39
+40        android:roundIcon="@mipmap/ic_launcher"
+40-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:26:7-46
+41        android:theme="@style/AppTheme" >
+41-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:28:7-38
+42        <activity
+42-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:29:7-40:18
+43            android:name="com.safesafar.MainActivity"
+43-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:30:9-37
+44            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+44-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:32:9-118
+45            android:exported="true"
+45-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:35:9-32
+46            android:label="@string/app_name"
+46-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:31:9-41
+47            android:launchMode="singleTask"
+47-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:33:9-40
+48            android:windowSoftInputMode="adjustResize" >
+48-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:34:9-51
+49            <intent-filter>
+49-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:36:9-39:25
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:37:13-65
+50-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:37:21-62
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:38:13-73
+52-->D:\SafeSafarNative\android\app\src\main\AndroidManifest.xml:38:23-70
+53            </intent-filter>
+54        </activity>
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.0.0] D:\GradleCache\caches\transforms-3\f1880cf4497a0a81e315b120458930c1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.0.0] D:\GradleCache\caches\transforms-3\f1880cf4497a0a81e315b120458930c1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+58            android:authorities="com.safesafar.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.0.0] D:\GradleCache\caches\transforms-3\f1880cf4497a0a81e315b120458930c1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.0.0] D:\GradleCache\caches\transforms-3\f1880cf4497a0a81e315b120458930c1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.0.0] D:\GradleCache\caches\transforms-3\f1880cf4497a0a81e315b120458930c1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.0.0] D:\GradleCache\caches\transforms-3\f1880cf4497a0a81e315b120458930c1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.0.0] D:\GradleCache\caches\transforms-3\f1880cf4497a0a81e315b120458930c1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\GradleCache\caches\transforms-3\d734cd817a6eba2dc56ecab0ed4b46f1\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\GradleCache\caches\transforms-3\d734cd817a6eba2dc56ecab0ed4b46f1\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] D:\GradleCache\caches\transforms-3\d734cd817a6eba2dc56ecab0ed4b46f1\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+66        </provider>
+67    </application>
+68
+69</manifest>
